@@ -1,0 +1,60 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	      2288	    0	      0	                                  _start	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2288	48	0	1	0	0	0	0	0	0	0	0
+         2	        -1	      2328	    0	      0	                                  _start	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2288	48	0	1	0	0	0	0	0	0	0	0
+         3	        30	    140628	    1	      1	     [Loop@0x22499 in __libc_start_main]	/lib64/libc.so.6	140441	391	0	11	0	0	0	0	0	0	0	0
+         4	         3	      3706	    0	      0	                                    main	/home/user14/Vishwjeet/HPC Programming/mmult_serial	3114	1274	0	2	0	0	0	0	0	0	0	0
+         5	        33	      2598	    1	      0	           [Loop@0x400a09 in init_array]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2569	85	2654	3	1	0	0	1	1	1	1	1
+         6	         3	      3778	    0	      0	                                    main	/home/user14/Vishwjeet/HPC Programming/mmult_serial	3114	1274	0	2	0	0	0	0	0	0	0	0
+         7	        36	      2586	    1	      0	           [Loop@0x400a09 in init_array]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2569	85	2654	3	1	0	0	1	1	1	1	1
+         8	         3	      3884	    0	      0	                                    main	/home/user14/Vishwjeet/HPC Programming/mmult_serial	3114	1274	0	2	0	0	0	0	0	0	0	0
+         9	        40	      3007	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        10	        40	      3011	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        11	        40	      3025	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        12	        40	      3000	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        13	        40	      3020	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        14	        40	      2944	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        15	        40	      2956	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        16	        40	      2970	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        17	        40	      2987	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        18	        40	      3016	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        19	        40	      2927	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        20	        39	      3077	    1	      0	           [Loop@0x400b5d in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2909	187	3096	8	1	0	0	1	1	1	1	1
+        21	        40	      3003	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        22	        40	      2967	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        23	        40	      3029	    1	      0	           [Loop@0x400b6f in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2927	110	3037	6	1	0	0	1	1	1	1	1
+        24	        56	      4299	    1	      0	                 [Loop@0x40101b in main]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	4123	193	4316	10	1	0	0	1	1	1	1	1
+        25	        24	    528873	    0	      1	                               _int_free	/lib64/libc.so.6	527888	2273	0	13	0	0	0	0	0	0	0	0
+        26	        25	    521513	    0	      1	                          systrim.isra.2	/lib64/libc.so.6	521392	184	0	14	0	0	0	0	0	0	0	0
+        27	        26	    560856	    0	      1	                      __default_morecore	/lib64/libc.so.6	560848	27	0	15	0	0	0	0	0	0	0	0
+        28	        27	   1004581	    0	      1	                                  __sbrk	/lib64/libc.so.6	1004528	129	0	16	0	0	0	0	0	0	0	0
+        29	        28	   1004428	    0	      1	                                     brk	/lib64/libc.so.6	1004416	97	0	17	0	0	0	0	0	0	0	0
+        30	         2	    140441	    0	      1	                       __libc_start_main	/lib64/libc.so.6	140384	448	0	12	0	0	0	0	0	0	0	0
+        31	         2	    140628	    0	      1	                       __libc_start_main	/lib64/libc.so.6	140384	448	0	12	0	0	0	0	0	0	0	0
+        32	         4	      2560	    0	      0	                              init_array	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2525	143	0	4	0	0	0	0	0	0	0	0
+        33	        32	      2569	    1	      0	           [Loop@0x400a00 in init_array]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2560	106	2666	5	1	0	0	1	1	1	1	1
+        34	         4	      2598	    0	      0	                              init_array	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2525	143	0	4	0	0	0	0	0	0	0	0
+        35	         6	      2560	    0	      0	                              init_array	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2525	143	0	4	0	0	0	0	0	0	0	0
+        36	        35	      2569	    1	      0	           [Loop@0x400a00 in init_array]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2560	106	2666	5	1	0	0	1	1	1	1	1
+        37	         6	      2586	    0	      0	                              init_array	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2525	143	0	4	0	0	0	0	0	0	0	0
+        38	         8	      2897	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        39	        38	      2909	    1	      0	           [Loop@0x400b51 in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2897	215	3112	9	1	0	0	1	1	1	1	1
+        40	        39	      2927	    1	      0	           [Loop@0x400b5d in multiply_d]	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2909	187	3096	8	1	0	0	1	1	1	1	1
+        41	         8	      3007	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        42	         8	      3011	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        43	         8	      3025	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        44	         8	      3000	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        45	         8	      3020	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        46	         8	      2944	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        47	         8	      2956	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        48	         8	      2970	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        49	         8	      2987	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        50	         8	      3016	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        51	         8	      2927	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        52	         8	      3077	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        53	         8	      3003	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        54	         8	      2967	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        55	         8	      3029	    0	      0	                              multiply_d	/home/user14/Vishwjeet/HPC Programming/mmult_serial	2866	248	0	7	0	0	0	0	0	0	0	0
+        56	         3	      4123	    0	      0	                                    main	/home/user14/Vishwjeet/HPC Programming/mmult_serial	3114	1274	0	2	0	0	0	0	0	0	0	0
+        57	         3	      4299	    0	      0	                                    main	/home/user14/Vishwjeet/HPC Programming/mmult_serial	3114	1274	0	2	0	0	0	0	0	0	0	0
+        58	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	19	0	0	0	0	0	0	0	0

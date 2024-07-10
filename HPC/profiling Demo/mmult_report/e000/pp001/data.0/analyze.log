@@ -1,0 +1,5 @@
+Info: Results will be stored at '/home/user14/Vishwjeet/HPC Programming/mmult_report/e000/pp001/data.0'. See interactive HTML report in '/home/user14/Vishwjeet/HPC Programming/mmult_report/e000/report'
+Info: Selected accelerator to analyze: Intel(R) Gen11 Integrated Graphics Accelerator 64EU.
+Info: Baseline Host: Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz.
+Info: Binary Name: 'mmult_serial'.
+Warning: Skip the unsupported instruction. Performance estimation may be inaccurate.

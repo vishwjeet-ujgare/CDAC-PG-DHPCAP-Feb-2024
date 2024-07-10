@@ -1,0 +1,44 @@
+// source /home/apps/spack/share/spack/setup-env.sh
+// spack load gcc/2l445hb
+
+#include <stdio.h>
+#include <omp.h>
+
+#define SIZE 1000 // Adjust SIZE as needed
+
+int main() {
+    int A[SIZE][SIZE], B[SIZE][SIZE], C[SIZE][SIZE];
+
+    // Initialize matrices (example: fill with random values)
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            A[i][j] = rand() % 100; // Example: random values between 0 and 99
+            B[i][j] = rand() % 100;
+        }
+    }
+
+    double start_time = omp_get_wtime();  // Start time measurement
+
+    #pragma omp parallel for collapse(2)  // Parallelize loops for rows and columns
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            C[i][j] = A[i][j] + B[i][j];
+        }
+    }
+
+    double end_time = omp_get_wtime();  // End time measurement
+
+    printf("Time taken for matrix addition (OpenMP): %f seconds\n", end_time - start_time);
+
+    // Print the result matrix (optional)
+    /*
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            printf("%d ", C[i][j]);
+        }
+        printf("\n");
+    }
+    */
+
+    return 0;
+}

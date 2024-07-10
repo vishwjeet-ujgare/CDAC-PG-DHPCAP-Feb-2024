@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="0.1" 
+                             kind="DATAKIND_CORRECTNESS" >
+  <site filename="" 
+        line_no="0" 
+        label="loop_site_2" 
+        loop_name="init_array" 
+        is_vectorized="-1">
+    <dependencies RAW="0" 
+                  WAR="1" 
+                  WAW="1" 
+                  potentialWAR="0" 
+                  potentialWAW="0" 
+                  potentialReduction="1" 
+                  nobegin="0"/>
+  </site> 
+  <site filename="" 
+        line_no="0" 
+        label="loop_site_1" 
+        loop_name="init_array" 
+        is_vectorized="-1">
+    <dependencies RAW="0" 
+                  WAR="0" 
+                  WAW="0" 
+                  potentialWAR="0" 
+                  potentialWAW="0" 
+                  potentialReduction="1" 
+                  nobegin="0"/>
+  </site> 
+  <site filename="" 
+        line_no="0" 
+        label="loop_site_5" 
+        loop_name="multiply_d" 
+        is_vectorized="-1">
+    <dependencies RAW="0" 
+                  WAR="3" 
+                  WAW="3" 
+                  potentialWAR="0" 
+                  potentialWAW="0" 
+                  potentialReduction="1" 
+                  nobegin="0"/>
+  </site> 
+  <site filename="" 
+        line_no="0" 
+        label="loop_site_4" 
+        loop_name="multiply_d" 
+        is_vectorized="-1">
+    <dependencies RAW="0" 
+                  WAR="2" 
+                  WAW="2" 
+                  potentialWAR="0" 
+                  potentialWAW="0" 
+                  potentialReduction="1" 
+                  nobegin="0"/>
+  </site> 
+  <site filename="" 
+        line_no="0" 
+        label="loop_site_3" 
+        loop_name="multiply_d" 
+        is_vectorized="-1">
+    <dependencies RAW="0" 
+                  WAR="0" 
+                  WAW="0" 
+                  potentialWAR="0" 
+                  potentialWAW="0" 
+                  potentialReduction="2" 
+                  nobegin="0"/>
+  </site> 
+  <site filename="" 
+        line_no="0" 
+        label="loop_site_6" 
+        loop_name="main" 
+        is_vectorized="-1">
+    <dependencies RAW="0" 
+                  WAR="0" 
+                  WAW="0" 
+                  potentialWAR="0" 
+                  potentialWAW="0" 
+                  potentialReduction="1" 
+                  nobegin="0"/>
+  </site> 
+</IntelParallelAdvisorSummary >

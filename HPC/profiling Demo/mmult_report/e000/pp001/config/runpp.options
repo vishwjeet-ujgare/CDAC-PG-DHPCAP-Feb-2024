@@ -1,0 +1,11 @@
+-r
+/home/user14/Vishwjeet/HPC Programming/mmult_report/e000/pp001
+-quiet
+--accelerator=gen
+--config=gen11_icl
+--assume-ndim-dependency
+--check-profitability
+--loop-filter-threshold=0.02
+--small-node-filter=0
+--count-send-latency=all
+--cpu-scale-factor=1

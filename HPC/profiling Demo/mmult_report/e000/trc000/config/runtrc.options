@@ -1,0 +1,19 @@
+-r
+/home/user14/Vishwjeet/HPC Programming/mmult_report/e000/trc000
+-quiet
+-cs-file
+/home/user14/Vishwjeet/HPC Programming/mmult_report/e000/callstacks.def
+--cs-mode=count-loops,count-flops,stl-profiling,stack-stitching
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--jit-profiling
+--offload-simulator
+--offload-simulator-page-size=4096
+--track-heap-objects
+--track-stack-accesses
+--enable-cache-simulation
+--cache-config=8:64w:4k/1:384w:3m/1:16w:8m
+--cachesim-sampling-factor=10
+--target-gpu=none
+--
+./mmult_serial

@@ -1,0 +1,15 @@
+Below is the sample command to run hotspot analysis of an application with Intel VTune:
+
+vtune --collect=hotspot --result-dir=./report -- ./mmult_serial
+
+Write a shell script to run any executable file with Intel VTune. The shell script should:
+    - load the required modules for running VTune (ask the user the name of the VTune
+    module and load it using the module load command)
+    - ask the user for the absolute path to the project directory (it can be any name)
+    - ask the user for the absolute path to the executable file
+
+Based on the input given by the user, the script should create and run the VTune command and generate the report.
+
+Also, Check if the executable and project directory path exists or not on the system.
+
+Open the generated report using the vtune-gui command.

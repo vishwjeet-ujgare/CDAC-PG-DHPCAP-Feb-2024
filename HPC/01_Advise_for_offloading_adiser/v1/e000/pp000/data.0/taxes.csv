@@ -1,0 +1,17 @@
+region_id,estimation_id,name,time
+27,0,data_tax_read,0.0
+27,0,data_tax_write,0.0
+27,0,data_tax,0.0
+27,0,launch_tax,1.0045454545454547e-05
+27,0,offload_tax,1.0045454545454547e-05
+27,0,data_tax_read_no_reuse,0.0
+27,0,data_tax_write_no_reuse,0.0
+27,0,data_tax_no_reuse,0.0
+30,0,data_tax_read,0.0
+30,0,data_tax_write,0.0
+30,0,data_tax,0.0
+30,0,launch_tax,5.045454545454546e-06
+30,0,offload_tax,5.045454545454546e-06
+30,0,data_tax_read_no_reuse,0.0
+30,0,data_tax_write_no_reuse,0.0
+30,0,data_tax_no_reuse,0.0
